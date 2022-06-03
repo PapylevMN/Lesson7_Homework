@@ -38,7 +38,7 @@ void FindAverage(int[,] array)
         {
             sum += array[i,j];
         }
-        res = (double)sum/array.GetLength(1);
+        res = (double)sum/array.GetLength(0);
         Console.Write($"{Math.Round(res,1)}; ");
     }
 }
